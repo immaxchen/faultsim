@@ -41,7 +41,8 @@ PI.setbitstr('000')
 PI.propagate()
 ans = PO.getbitstr()
 ```
-assign a fault and run again
+
+assign fault and re-run simulation
 
 ```python
 X3.stuckat = 1
@@ -50,9 +51,6 @@ PI.propagate()
 ans = PO.getbitstr()
 ```
 
-more examples available in this repo, have fun!
-
-
-Reference:
+# Reference:
 
 [1] Wang et al. (2006). VLSI Test Principles and Architectures: Design for Testability. Elsevier Publish.
