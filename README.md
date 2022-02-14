@@ -3,9 +3,21 @@ Basic combinational logic circuit fault simulation
 
 Python 3.6+ required
 
-# Example
+## Installation
 
-download the module and import
+```
+pip install faultsim
+```
+
+or alternatively, install from source
+
+```
+git clone https://github.com/immaxchen/faultsim.git
+cd faultsim
+pip install .
+```
+
+## Basic Usage
 
 ```python
 import faultsim as sim
@@ -51,6 +63,8 @@ PI.propagate()
 ans = PO.getbitstr()
 ```
 
-# Reference:
+for more examples, please refer to the `examples` folder
+
+## Reference
 
 [1] Wang et al. (2006). VLSI Test Principles and Architectures: Design for Testability. Elsevier Publish.
